@@ -7,7 +7,7 @@ class TestMethods(unittest.TestCase):
     def test_add(self):
         self.assertEqual(hello.say1(), "hello")
     def test_say(self):
-        self.assertEqual(hello.say2(), "world")
+        self.assertEqual(hello.say2(), "hello")
 
 
 if __name__ == '__main__':
