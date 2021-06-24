@@ -1,5 +1,4 @@
-a = 1
-if a == 1:
-    print("hello")
-else:
-    print("world")
+def say1():
+    return "hello"
+def say2():
+    return "world"
